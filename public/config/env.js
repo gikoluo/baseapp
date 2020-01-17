@@ -1,9 +1,9 @@
 window.env = {
     api: {
-        authUrl: 'http://localhost:9002/api/v2/barong',
-        tradeUrl: 'http://localhost:9002/api/v2/peatio',
-        applogicUrl: 'http://localhost:9002/api/v2/applogic',
-        rangerUrl: 'ws://localhost:9011/api/v2/ranger',
+        authUrl: 'http://a.gongfu.red:80/api/v2/barong',
+        tradeUrl: 'http://a.gongfu.red:80/api/v2/peatio',
+        applogicUrl: 'http://a.gongfu.red:80/api/v2/applogic',
+        rangerUrl: 'ws://a.gongfu.red:80/api/v2/ranger',
     },
     minutesUntilAutoLogout: '5',
     withCredentials: false,
