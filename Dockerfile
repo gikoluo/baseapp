@@ -2,7 +2,7 @@ FROM node:12.13.1 AS builder
 
 WORKDIR /home/node
 COPY . .
-RUN sudo chown -R node:node .
+RUN chown -R node:node .
 
 ARG BUILD_EXPIRE
 ARG BUILD_DOMAIN
