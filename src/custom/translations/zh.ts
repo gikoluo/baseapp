@@ -19,7 +19,7 @@ export const zh: LangType = {
 
     'page.body.trade.header.markets': '市场',
     'page.body.trade.header.markets.content.market': '市场',
-    'page.body.trade.header.markets.content.pair': 'Pair',
+    'page.body.trade.header.markets.content.pair': '币币',
     'page.body.trade.header.markets.content.price': '价格',
     'page.body.trade.header.markets.content.last_price': '最新价格',
     'page.body.trade.header.markets.content.change': '变动范围',
@@ -37,16 +37,16 @@ export const zh: LangType = {
     'page.body.trade.header.newOrder.content.total': '总价',
     'page.body.trade.header.newOrder.content.available': '可用',
 
-    'error.order.create.minAmount': 'Amount is too low. Minimum amount is {amount} {currency}',
+    'error.order.create.minAmount': '数量太低，最少购买数量为 {amount} {currency}',
     'error.order.create.minPrice': '价格太低，最低价格限制为 {price} {currency}',
     'error.order.create.maxPrice': '价格太高，最高价格限制为 {price} {currency}',
     'error.order.create.available': '余额不足，可用余额为 {available} {currency}',
 
-    'page.body.trade.header.marketDepths': 'Market Depth',
+    'page.body.trade.header.marketDepths': '市场深度',
     'page.body.trade.header.marketDepths.content.price': '价格:',
-    'page.body.trade.header.marketDepths.content.volume': 'Amount:',
-    'page.body.trade.header.marketDepths.content.cumulativeVolume': 'Total:',
-    'page.body.trade.header.marketDepths.content.cumulativeValue': 'Estimated Value:',
+    'page.body.trade.header.marketDepths.content.volume': '量:',
+    'page.body.trade.header.marketDepths.content.cumulativeVolume': '总量:',
+    'page.body.trade.header.marketDepths.content.cumulativeValue': '预估市值:',
 
     'page.body.trade.toolBar.lowest': '24h最低',
     'page.body.trade.toolBar.lastPrice': '最新价格',
@@ -55,13 +55,13 @@ export const zh: LangType = {
     'page.body.trade.toolBar.volume': '24h总量',
     'page.body.trade.toolBar.change': '变动范围',
 
-    'page.body.trade.header.asks': 'Asks',
+    'page.body.trade.header.asks': '询盘',
     'page.body.trade.header.bids': 'Bids',
     'page.body.trade.orderbook': '订单表',
     'page.body.trade.orderbook.lastMarket': '市场最新价格',
     'page.body.trade.orderbook.header.price': '价格',
-    'page.body.trade.orderbook.header.amount': 'Amount',
-    'page.body.trade.orderbook.header.volume': 'Total',
+    'page.body.trade.orderbook.header.amount': '量',
+    'page.body.trade.orderbook.header.volume': '总量',
 
     'page.body.trade.header.recentTrades': '最近交易',
     'page.body.trade.header.recentTrades.content.time': '时间',
@@ -72,7 +72,7 @@ export const zh: LangType = {
     'page.body.trade.header.openOrders.content.date': '日期',
     'page.body.trade.header.openOrders.content.state': '状态',
     'page.body.trade.header.openOrders.content.price': '价格',
-    'page.body.trade.header.openOrders.content.amount': 'Amount',
+    'page.body.trade.header.openOrders.content.amount': '量',
     'page.body.trade.header.openOrders.content.total': 'Value',
     'page.body.trade.header.openOrders.content.filled': 'Filled',
 
@@ -157,8 +157,8 @@ export const zh: LangType = {
     'page.body.wallets.beneficiaries.tipDescription': '备注',
 
     'page.body.wallets.beneficiaries.failAddModal.header': '警告',
-    'page.body.wallets.beneficiaries.failAddModal.content': 'You need to confirm your account to add a beneficiary',
-    'page.body.wallets.beneficiaries.failAddModal.button': 'Confirm an account',
+    'page.body.wallets.beneficiaries.failAddModal.content': '添加受益人之前，请先对账户进行认证。',
+    'page.body.wallets.beneficiaries.failAddModal.button': '确认账户',
 
     'page.body.openOrders.tab.all': '全部',
     'page.body.openOrders.tab.open': '开放',
@@ -204,18 +204,18 @@ export const zh: LangType = {
     'page.body.history.withdraw.content.status.submitted': '已提交',
     'page.body.history.withdraw.content.status.skipped': '已忽略',
     'page.body.history.withdraw.content.status.canceled': '已取消',
-    'page.body.history.withdraw.content.status.accepted': 'Accepted',
-    'page.body.history.withdraw.content.status.suspected': 'Suspected',
-    'page.body.history.withdraw.content.status.rejected': 'Rejected',
-    'page.body.history.withdraw.content.status.processing': 'Processing',
-    'page.body.history.withdraw.content.status.succeed': 'Succeed',
-    'page.body.history.withdraw.content.status.failed': 'Failed',
-    'page.body.history.withdraw.content.status.confirming': 'Confirming',
-    'page.body.history.withdraw.content.status.errored': 'Error',
+    'page.body.history.withdraw.content.status.accepted': '已接受',
+    'page.body.history.withdraw.content.status.suspected': '虚假',
+    'page.body.history.withdraw.content.status.rejected': '已拒绝',
+    'page.body.history.withdraw.content.status.processing': '处理中',
+    'page.body.history.withdraw.content.status.succeed': '成功',
+    'page.body.history.withdraw.content.status.failed': '失败',
+    'page.body.history.withdraw.content.status.confirming': '确认中',
+    'page.body.history.withdraw.content.status.errored': '错误',
 
     'page.body.history.trade': '交易历史',
     'page.body.history.trade.header.id': 'ID',
-    'page.body.history.trade.header.date': 'Date',
+    'page.body.history.trade.header.date': '日期',
     'page.body.history.trade.header.side': 'Side',
     'page.body.history.trade.content.side.buy': '买入',
     'page.body.history.trade.content.side.sell': '卖出',
@@ -223,10 +223,10 @@ export const zh: LangType = {
     'page.body.history.trade.header.price': '价格',
     'page.body.history.trade.header.total': '总计',
     'page.body.history.trade.header.amount': 'Amount',
-    'page.body.history.trade.header.balance': 'Balance',
+    'page.body.history.trade.header.balance': '余额',
 
 
-    'page.body.profile.header.account': 'Profile',
+    'page.body.profile.header.account': '资料',
 
     'page.body.profile.header.account.content.password': '密码',
     'page.body.profile.header.account.content.password.button.change': '修改',
@@ -265,8 +265,8 @@ export const zh: LangType = {
     'page.body.profile.header.account.profile.identity.title': '身份已认证',
     'page.body.profile.header.account.profile.identity.message': '提款权限启用',
 
-    'page.body.profile.header.referralProgram': 'Referral Link',
-    'page.body.profile.content.copyLink': 'Copy',
+    'page.body.profile.header.referralProgram': '推荐链接',
+    'page.body.profile.content.copyLink': '复制',
 
     'page.body.profile.apiKeys.header': '我的API',
     'page.body.profile.apiKeys.header.create': '新建API',
@@ -290,8 +290,8 @@ export const zh: LangType = {
     'page.body.profile.apiKeys.modal.note': '注意',
     'page.body.profile.apiKeys.modal.note_content': `为了避免资产遗失，请不要将你的Secret Key 和 Private Key告诉他人。\
  如果您遗忘了您的Secret Key, 请删除它并申请新的密钥对`,
-    'page.body.profile.apiKeys.modal.title': 'Enter 2fa code from the app',
-    'page.body.profile.apiKeys.modal.label': '6-digit Google Authenticator code',
+    'page.body.profile.apiKeys.modal.title': '在APP中输入高级验证码',
+    'page.body.profile.apiKeys.modal.label': '6位谷歌高级认证码',
     'page.body.profile.apiKeys.modal.placeholder': 'Enter Code',
 
     'page.body.profile.apiKeys.table.header.kid': 'Kid',
