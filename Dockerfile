@@ -12,6 +12,8 @@ ARG NPM_AUTH_TOKEN
 
 RUN npm i -g yarn
 
+RUN chown node:node .
+
 USER node
 
 ENV NPM_AUTH_TOKEN=${NPM_AUTH_TOKEN}
@@ -20,10 +22,7 @@ RUN echo "//registry.npmjs.org/:_authToken=${NPM_AUTH_TOKEN}" > .npmrc
 RUN yarn config set registry https://registry.npm.taobao.org/
 RUN yarn install
 
-
-USER root
 COPY . .
-RUN chown -R node:node .
 
 USER node
 RUN ./scripts/build.sh
