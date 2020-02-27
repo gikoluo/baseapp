@@ -390,9 +390,9 @@ export const zh: LangType = {
     'page.header.signUp.terms': '我已经阅读了《申明》',
     'page.header.signUp.modal.header': '验证邮箱',
     'page.header.signUp.modal.body': '请点击邮件中的连接，并根据指引进行邮箱确认。' +
-                                      '如未找到邮件，请检查在垃圾邮件中找找。',
+                                      '如未找到邮件，请检查一下垃圾邮件中，并标记：这不是垃圾邮件。',
 
-    'page.resendConfirmation': '重新发行',
+    'page.resendConfirmation': '重新发送',
     'page.forgotPassword': '遗忘密码',
     'page.forgotPassword.message': '输入邮箱并重置密码',
     'page.password2fa': '高级认证',
@@ -422,7 +422,7 @@ export const zh: LangType = {
     'success.phone.verification.send': '验证码已发送',
     'success.phone.confirmed': '手机号已认证',
     'success.phone.confirmation.message': '成功!',
-    'success.message.sent': '短信已发送',
+    'success.message.sent': '信息已发送',
     'success.email.confirmed': '邮箱已认证',
 
     // error messages
