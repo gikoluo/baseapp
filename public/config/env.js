@@ -15,4 +15,5 @@ window.env = {
     rangerReconnectPeriod: '1',
     msAlertDisplayTime: '5000',
     incrementalOrderBook: true,
+    languages: ['en', 'zh'],
 };

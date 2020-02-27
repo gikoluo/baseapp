@@ -211,12 +211,12 @@ class SidebarContainer extends React.Component<Props, State> {
                     />
                     <span>EN</span>
                 </div>
-                <div className="dropdown-menu-item-lang" onClick={e => this.handleChangeLanguage('ru')}>
+                <div className="dropdown-menu-item-lang" onClick={e => this.handleChangeLanguage('zh')}>
                     <img
-                        src={require('../../assets/images/sidebar/ru.svg')}
-                        alt="rus"
+                        src={require('../../assets/images/sidebar/zh.svg')}
+                        alt="china"
                     />
-                    <span>RU</span>
+                    <span>ZH</span>
                 </div>
             </div>
         );
