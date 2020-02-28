@@ -24,6 +24,9 @@ RUN yarn install
 
 COPY . .
 
+USER root
+RUN chown -R node:node src/ public/ build/
+
 USER node
 RUN ./scripts/build.sh
 
